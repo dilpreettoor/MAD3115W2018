@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0F4A3F203D648A005B2591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F4A3E203D648A005B2591 /* AppDelegate.swift */; };
+		9B0F4A41203D648A005B2591 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F4A40203D648A005B2591 /* LoginViewController.swift */; };
+		9B0F4A44203D648A005B2591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F4A42203D648A005B2591 /* Main.storyboard */; };
+		9B0F4A47203D648A005B2591 /* GDP_Parking_System.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F4A45203D648A005B2591 /* GDP_Parking_System.xcdatamodeld */; };
+		9B0F4A49203D648A005B2591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F4A48203D648A005B2591 /* Assets.xcassets */; };
+		9B0F4A4C203D648A005B2591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F4A4A203D648A005B2591 /* LaunchScreen.storyboard */; };
+		9B0F4A54203D6BBB005B2591 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F4A53203D6BBB005B2591 /* RegisterViewController.swift */; };
+		9B0F4A56203D7C6A005B2591 /* IMG_0465.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F4A55203D7C6A005B2591 /* IMG_0465.png */; };
+		9B0F4A58203D87FF005B2591 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F4A57203D87FF005B2591 /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B0F4A3B203D648A005B2591 /* GDP Parking System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDP Parking System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0F4A3E203D648A005B2591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B0F4A40203D648A005B2591 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9B0F4A43203D648A005B2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0F4A46203D648A005B2591 /* GDP_Parking_System.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GDP_Parking_System.xcdatamodel; sourceTree = "<group>"; };
+		9B0F4A48203D648A005B2591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0F4A4B203D648A005B2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0F4A4D203D648A005B2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0F4A53203D6BBB005B2591 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9B0F4A55203D7C6A005B2591 /* IMG_0465.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0465.png; path = ../../../../Downloads/IMG_0465.png; sourceTree = "<group>"; };
+		9B0F4A57203D87FF005B2591 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0F4A38203D648A005B2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0F4A32203D6489005B2591 = {
+			isa = PBXGroup;
+			children = (
+				9B0F4A3D203D648A005B2591 /* GDP Parking System */,
+				9B0F4A3C203D648A005B2591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0F4A3C203D648A005B2591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F4A3B203D648A005B2591 /* GDP Parking System.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0F4A3D203D648A005B2591 /* GDP Parking System */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F4A3E203D648A005B2591 /* AppDelegate.swift */,
+				9B0F4A40203D648A005B2591 /* LoginViewController.swift */,
+				9B0F4A42203D648A005B2591 /* Main.storyboard */,
+				9B0F4A48203D648A005B2591 /* Assets.xcassets */,
+				9B0F4A4A203D648A005B2591 /* LaunchScreen.storyboard */,
+				9B0F4A4D203D648A005B2591 /* Info.plist */,
+				9B0F4A45203D648A005B2591 /* GDP_Parking_System.xcdatamodeld */,
+				9B0F4A53203D6BBB005B2591 /* RegisterViewController.swift */,
+				9B0F4A55203D7C6A005B2591 /* IMG_0465.png */,
+				9B0F4A57203D87FF005B2591 /* WelcomeViewController.swift */,
+			);
+			path = "GDP Parking System";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0F4A3A203D648A005B2591 /* GDP Parking System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0F4A50203D648A005B2591 /* Build configuration list for PBXNativeTarget "GDP Parking System" */;
+			buildPhases = (
+				9B0F4A37203D648A005B2591 /* Sources */,
+				9B0F4A38203D648A005B2591 /* Frameworks */,
+				9B0F4A39203D648A005B2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GDP Parking System";
+			productName = "GDP Parking System";
+			productReference = 9B0F4A3B203D648A005B2591 /* GDP Parking System.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0F4A33203D6489005B2591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dilpreet Singh";
+				TargetAttributes = {
+					9B0F4A3A203D648A005B2591 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B0F4A36203D6489005B2591 /* Build configuration list for PBXProject "GDP Parking System" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0F4A32203D6489005B2591;
+			productRefGroup = 9B0F4A3C203D648A005B2591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0F4A3A203D648A005B2591 /* GDP Parking System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0F4A39203D648A005B2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0F4A4C203D648A005B2591 /* LaunchScreen.storyboard in Resources */,
+				9B0F4A49203D648A005B2591 /* Assets.xcassets in Resources */,
+				9B0F4A56203D7C6A005B2591 /* IMG_0465.png in Resources */,
+				9B0F4A44203D648A005B2591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0F4A37203D648A005B2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0F4A41203D648A005B2591 /* LoginViewController.swift in Sources */,
+				9B0F4A58203D87FF005B2591 /* WelcomeViewController.swift in Sources */,
+				9B0F4A3F203D648A005B2591 /* AppDelegate.swift in Sources */,
+				9B0F4A47203D648A005B2591 /* GDP_Parking_System.xcdatamodeld in Sources */,
+				9B0F4A54203D6BBB005B2591 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B0F4A42203D648A005B2591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0F4A43203D648A005B2591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0F4A4A203D648A005B2591 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0F4A4B203D648A005B2591 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0F4A4E203D648A005B2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B0F4A4F203D648A005B2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0F4A51203D648A005B2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GDP Parking System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.GDP-Parking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0F4A52203D648A005B2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GDP Parking System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.GDP-Parking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0F4A36203D6489005B2591 /* Build configuration list for PBXProject "GDP Parking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0F4A4E203D648A005B2591 /* Debug */,
+				9B0F4A4F203D648A005B2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0F4A50203D648A005B2591 /* Build configuration list for PBXNativeTarget "GDP Parking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0F4A51203D648A005B2591 /* Debug */,
+				9B0F4A52203D648A005B2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B0F4A45203D648A005B2591 /* GDP_Parking_System.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B0F4A46203D648A005B2591 /* GDP_Parking_System.xcdatamodel */,
+			);
+			currentVersion = 9B0F4A46203D648A005B2591 /* GDP_Parking_System.xcdatamodel */;
+			path = GDP_Parking_System.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B0F4A33203D6489005B2591 /* Project object */;
+}
